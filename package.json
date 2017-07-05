@@ -1,0 +1,38 @@
+{
+  "name": "has-currency-code",
+  "version": "0.0.0",
+  "description": "Check if given string has currency code",
+  "main": "index.js",
+  "repository": "git@github.com:bukinoshita/has-currency-code.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "keywords": [
+    "currenci",
+    "currency",
+    "code",
+    "symbol",
+    "convert",
+    "transform",
+    "money",
+    "transform-currency"
+  ],
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "find-currency-code": "^0.0.1",
+    "is-currency-code": "^1.1.0"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "esnext": true,
+    "rules": {
+      "object-curly-spacing": 0
+    }
+  }
+}
