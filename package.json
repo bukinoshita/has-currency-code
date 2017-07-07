@@ -1,6 +1,6 @@
 {
   "name": "has-currency-code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if given string has currency code",
   "main": "index.js",
   "repository": "git@github.com:bukinoshita/has-currency-code.git",
