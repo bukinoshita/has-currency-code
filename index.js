@@ -1,12 +1,10 @@
 'use strict'
 
-const isCurrencyCode = require('is-currency-code')
 const findCurrencyCode = require('find-currency-code')
 
 module.exports = (str, { toObject = false } = {}) => {
   if (typeof str === 'string') {
-    const validateCurrency = isCurrencyCode(findCurrencyCode(str))
-    const currency = validateCurrency ? findCurrencyCode(str) : false
+    const currency = findCurrencyCode(str)
 
     if (currency) {
       const formatted = toObject ? { currency } : true
