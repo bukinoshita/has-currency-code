@@ -207,7 +207,7 @@ ava-init@^0.2.0:
     read-pkg-up "^2.0.0"
     write-pkg "^2.0.0"
 
-ava@^0.20.0:
+ava@0.20.0:
   version "0.20.0"
   resolved "https://registry.yarnpkg.com/ava/-/ava-0.20.0.tgz#bdc0dd36453d7255e9f733305ab370c248381e41"
   dependencies:
@@ -932,7 +932,7 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
 
-currenci@^0.0.1:
+currenci@0.0.1, currenci@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/currenci/-/currenci-0.0.1.tgz#84cbd12672d60e54aadc930e9f69bbc6fe704b4a"
   dependencies:
@@ -3470,7 +3470,7 @@ xo-init@^0.5.0:
     the-argv "^1.0.0"
     write-pkg "^2.0.0"
 
-xo@^0.18.2:
+xo@0.18.2:
   version "0.18.2"
   resolved "https://registry.yarnpkg.com/xo/-/xo-0.18.2.tgz#92a42eb02a4fb149dfea5518021914f5aac84ff0"
   dependencies:
