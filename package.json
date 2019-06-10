@@ -22,7 +22,7 @@
   "devDependencies": {
     "ava": "0.25.0",
     "currenci": "0.0.1",
-    "xo": "0.18.2"
+    "xo": "0.24.0"
   },
   "dependencies": {
     "find-currency-code": "^0.0.2"
