@@ -21,7 +21,7 @@
   ],
   "devDependencies": {
     "ava": "2.1.0",
-    "currenci": "0.0.1",
+    "currenci": "1.0.0",
     "xo": "0.24.0"
   },
   "dependencies": {
