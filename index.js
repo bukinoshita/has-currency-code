@@ -1,8 +1,7 @@
-'use strict'
-
+// Packages
 const findCurrencyCode = require('find-currency-code')
 
-module.exports = (str, { toObject = false } = {}) => {
+const hasCurrencyCode = (str, { toObject = false } = {}) => {
   if (typeof str === 'string') {
     const currency = findCurrencyCode(str)
 
@@ -16,3 +15,5 @@ module.exports = (str, { toObject = false } = {}) => {
 
   return false
 }
+
+module.exports = hasCurrencyCode

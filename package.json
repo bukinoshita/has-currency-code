@@ -3,12 +3,12 @@
   "version": "0.0.2",
   "description": "Check if given string has currency code",
   "main": "index.js",
-  "repository": "git@github.com:bukinoshita/has-currency-code.git",
+  "repository": "bukinoshita/has-currency-code",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "test": "xo && ava"
-  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "currenci",
     "currency",
@@ -19,20 +19,38 @@
     "money",
     "transform-currency"
   ],
-  "devDependencies": {
-    "ava": "2.1.0",
-    "currenci": "0.0.1",
-    "xo": "0.24.0"
+  "scripts": {
+    "test": "nyc ava",
+    "lint": "xo"
   },
   "dependencies": {
-    "find-currency-code": "^0.0.2"
+    "find-currency-code": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "currenci": "^1.0.0",
+    "eslint-config-prettier": "^5.0.0",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2",
+    "xo": "^0.24.0"
   },
   "xo": {
-    "space": true,
-    "semicolon": false,
-    "esnext": true,
-    "rules": {
-      "object-curly-spacing": 0
+    "extends": [
+      "prettier"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --semi false --single-quote --write",
+      "yarn lint",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
   }
 }
