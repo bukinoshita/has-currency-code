@@ -25,7 +25,7 @@
     "xo": "0.24.0"
   },
   "dependencies": {
-    "find-currency-code": "^0.0.2"
+    "find-currency-code": "^1.0.0"
   },
   "xo": {
     "space": true,
