@@ -27,14 +27,14 @@
     "find-currency-code": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^2.1.0",
-    "currenci": "^1.0.0",
-    "eslint-config-prettier": "^5.0.0",
-    "husky": "^2.4.1",
-    "lint-staged": "^8.2.1",
-    "nyc": "^14.1.1",
-    "prettier": "^1.18.2",
-    "xo": "^0.24.0"
+    "ava": "2.1.0",
+    "currenci": "1.0.0",
+    "eslint-config-prettier": "5.0.0",
+    "husky": "2.4.1",
+    "lint-staged": "8.2.1",
+    "nyc": "14.1.1",
+    "prettier": "1.18.2",
+    "xo": "0.24.0"
   },
   "xo": {
     "extends": [
