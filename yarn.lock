@@ -1248,7 +1248,14 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-currenci@1.0.0, currenci@^1.0.0:
+currenci@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/currenci/-/currenci-1.0.1.tgz#138ed2d1247be7e08ea04b2ca6622caa38b2b413"
+  integrity sha512-+BlQX6V9nM/hl6BT2yLhAKQ6EIg5IyfdibXIr58o1dFFCV+8DF6fwvGbdJJ/U5oVsDjgcif3aXX5T1HUY+moEQ==
+  dependencies:
+    unique-random-array "^2.0.0"
+
+currenci@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/currenci/-/currenci-1.0.0.tgz#fefa3a8bf8b2e39b43cfae76ef8b73331629ea3a"
   integrity sha512-oSI1CYqzH66iDmR51YmbkUb4OaGCfqGeqbfglDxIeTsOGV3blW6G/SKKlK6scODXjX7Xyh7/dR6QSmPbcrWxqQ==
