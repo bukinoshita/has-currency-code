@@ -30,7 +30,7 @@
     "ava": "2.4.0",
     "currenci": "1.0.1",
     "eslint-config-prettier": "6.10.0",
-    "husky": "3.1.0",
+    "husky": "5.0.9",
     "lint-staged": "10.0.2",
     "nyc": "15.0.0",
     "prettier": "1.19.1",
